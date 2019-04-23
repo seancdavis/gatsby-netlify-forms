@@ -12,6 +12,7 @@ const JsxFormThankYou = () => (
       data-netlify="true"
       action="/thank-you"
     >
+      <input type="hidden" name="form-name" value="JSX Form - Thank You" />
       <p>
         <label>
           Your Email: <input type="email" name="email" />

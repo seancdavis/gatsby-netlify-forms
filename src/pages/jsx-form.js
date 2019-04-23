@@ -7,6 +7,7 @@ const JsxForm = () => (
     <h1>JSX Form</h1>
 
     <form name="JSX Form" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="JSX Form" />
       <p>
         <label>
           Your Email: <input type="email" name="email" />

@@ -2,11 +2,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const JsxForm = () => (
+const JsxFormThankYou = () => (
   <Layout>
-    <h1>JSX Form</h1>
+    <h1>JSX Form - Thank You</h1>
 
-    <form name="JSX Form" method="POST" data-netlify="true">
+    <form
+      name="JSX Form - Thank You"
+      method="POST"
+      data-netlify="true"
+      action="/thank-you"
+    >
       <p>
         <label>
           Your Email: <input type="email" name="email" />
@@ -24,4 +29,4 @@ const JsxForm = () => (
   </Layout>
 )
 
-export default JsxForm
+export default JsxFormThankYou

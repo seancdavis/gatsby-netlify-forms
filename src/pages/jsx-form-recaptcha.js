@@ -2,11 +2,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const JsxForm = () => (
+const JsxFormRecaptcha = () => (
   <Layout>
-    <h1>JSX Form</h1>
+    <h1>JSX Form - Recaptcha</h1>
 
-    <form name="JSX Form" method="POST" data-netlify="true">
+    <form
+      name="JSX Form - Recaptcha"
+      method="POST"
+      data-netlify-recaptcha="true"
+      data-netlify="true"
+    >
       <p>
         <label>
           Your Email: <input type="email" name="email" />
@@ -17,6 +22,7 @@ const JsxForm = () => (
           Message: <textarea name="message" />
         </label>
       </p>
+      <div data-netlify-recaptcha="true" />
       <p>
         <button type="submit">Send</button>
       </p>
@@ -24,4 +30,4 @@ const JsxForm = () => (
   </Layout>
 )
 
-export default JsxForm
+export default JsxFormRecaptcha

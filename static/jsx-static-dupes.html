@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Static Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+
+    <h1>JSX Form - Recaptcha Clone</h1>
+
+    <form
+      name="JSX Form - Recaptcha Clone"
+      method="POST"
+      data-netlify-recaptcha="true"
+      data-netlify="true"
+    >
+      <input
+        type="hidden"
+        name="form-name"
+        value="JSX Form - Recaptcha Clone"
+      />
+      <p>
+        <label>
+          Your Email: <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          Message: <textarea name="message"></textarea>
+        </label>
+      </p>
+      <div data-netlify-recaptcha="true"></div>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+
+  </body>
+</html>
+

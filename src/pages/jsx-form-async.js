@@ -23,9 +23,6 @@ class JsxFormAsync extends React.Component {
       data: qs.stringify(formData),
     }
 
-    console.log(formData)
-    console.log(axiosOptions)
-
     axios(axiosOptions)
       .then(response => {
         this.setState({

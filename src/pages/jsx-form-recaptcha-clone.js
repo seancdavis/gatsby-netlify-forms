@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const JsxFormRecaptcha = () => (
+const JsxFormRecaptchaClone = () => (
   <Layout>
     <h1>JSX Form - Recaptcha Clone</h1>
 
@@ -35,4 +35,4 @@ const JsxFormRecaptcha = () => (
   </Layout>
 )
 
-export default JsxFormRecaptcha
+export default JsxFormRecaptchaClone

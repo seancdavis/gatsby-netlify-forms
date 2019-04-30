@@ -13,6 +13,7 @@ class JsxFormGoogleRecaptcha extends React.Component {
           name="JSX Form - Google Recaptcha"
           method="POST"
           data-netlify="true"
+          data-netlify-recaptcha="true"
         >
           <input
             type="hidden"
